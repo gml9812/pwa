@@ -1,13 +1,7 @@
-import React, { Suspense } from "react";
+import React from "react";
 
-import { Stack } from "./stackflow";
-
-const App: React.FC = () => (
-  <React.StrictMode>
-    <Suspense>
-      <Stack />
-    </Suspense>
-  </React.StrictMode>
-);
+function App() {
+  return <div className="App">abcd</div>;
+}
 
 export default App;
