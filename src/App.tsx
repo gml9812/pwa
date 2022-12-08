@@ -1,7 +1,8 @@
 import React from "react";
+import { Stack } from "./stackflow";
 
-function App() {
-  return <div className="App">abcd</div>;
-}
+const App: React.FC = () => {
+  return <Stack />;
+};
 
 export default App;
